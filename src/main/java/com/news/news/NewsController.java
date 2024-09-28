@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class NewsController {
 
-    private static final String API_KEY = "0259183f2e184016b548752b2b19448b"; // Replace with your News API key
+    private static final String API_KEY = "Your API key"; // Replace with your News API key
     private static final String NEWS_API_URL = "https://newsapi.org/v2/top-headlines?country=us&apiKey=";
 
     @GetMapping("/news")
